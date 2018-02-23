@@ -22,10 +22,10 @@
         <input type="submit" value="logout">
         <input type="hidden" name="page" value="button" >
         </form>
-        <h1>${sessionScope['name']}</h1>
+        <h1 style="text-align: left;">${sessionScope['name']}</h1>
         <input type="hidden" id="name" value="${sessionScope['name']}">
-        <p>Message</p><input type="text" id="msg">
-        <input type="button" id="button" value="send">
+        <p>Message</p><input type="text" id="msg" placeholder="type your message">
+        <input type="button" id="button" value="send"><br><br>
         <div id="div"></div>
         <div id="div2"></div>
 <!--        <table id="users">

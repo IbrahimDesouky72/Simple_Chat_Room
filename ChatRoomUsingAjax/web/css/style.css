@@ -604,4 +604,10 @@ form a:hover {
     color: white;
 }
 
+ p {
+    text-align: left;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
+
 /*--- Responsinator Code ---*/
