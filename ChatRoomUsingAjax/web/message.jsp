@@ -22,9 +22,9 @@
         <input type="submit" value="logout">
         <input type="hidden" name="page" value="button" >
         </form>
-        <div >${sessionScope['name']}</div>
+        <h1>${sessionScope['name']}</h1>
         <input type="hidden" id="name" value="${sessionScope['name']}">
-        Message<input type="text" id="msg">
+        <p>Message</p><input type="text" id="msg">
         <input type="button" id="button" value="send">
         <div id="div"></div>
         <div id="div2"></div>

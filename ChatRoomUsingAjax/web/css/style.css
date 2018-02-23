@@ -590,7 +590,9 @@ form a:hover {
     padding: 8px;
 }
 
-.customers tr:nth-child(even){background-color: #f2f2f2;}
+.customers tr:nth-child(even){background-color: #c9d698;}
+
+.customers tr:nth-child(odd){background-color: #bdce97;}
 
 .customers tr:hover {background-color: #ddd;}
 
